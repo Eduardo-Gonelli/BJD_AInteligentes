@@ -47,10 +47,10 @@ namespace ExemploAspirador
             else
             {
                 // Lida com percepções não mapeadas ou sequências inválidas
-                gameManager.SetPerception("Percepção não mapeada: " + perceptionsKey);
+                gameManager.SetPerception("Percepção não mapeada: " + perception);
                 // Se tentar executar uma ação que não existe, exibe uma mensagem de erro
                 // No exemplo, não existe uma ação mapeada para o botão "Molhado"
-                Debug.LogError("Percepção não mapeada: " + perceptionsKey);
+                Debug.LogError("Percepção não mapeada: " + perception);
             }            
         }
 
